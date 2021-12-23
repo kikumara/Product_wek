@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/kikumara/IdeaProjects/Product_week">
+        <classes>
+            <class name="Test.Buy_Coins_Student_test">
+                <methods>
+                    <include name="Coins_Student"/>
+                </methods>
+            </class>
+            <class name="Test.Coins_Instructor">
+                <methods>
+                    <include name="Coins"/>
+                </methods>
+            </class>
+            <class name="Test.Coins_Student_testcase">
+                <methods>
+                    <include name="Coins"/>
+                </methods>
+            </class>
+            <class name="Test.Login">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+            <class name="Test.Logout_Test">
+                <methods>
+                    <include name="course"/>
+                </methods>
+            </class>
+            <class name="Test.Mycourse_testcase">
+                <methods>
+                    <include name="course"/>
+                </methods>
+            </class>
+            <class name="Test.Register">
+                <methods>
+                    <include name="reg"/>
+                </methods>
+            </class>
+            <class name="Test.Wishlist_test">
+                <methods>
+                    <include name="course"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

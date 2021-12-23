@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="C:/Users/kikumara/IdeaProjects/Product_week(failed)">
+    <classes>
+      <class name="Test.Mycourse_testcase">
+        <methods>
+          <include name="launch"/>
+          <include name="course"/>
+        </methods>
+      </class> <!-- Test.Mycourse_testcase -->
+      <class name="Test.Buy_Coins_Student_test">
+        <methods>
+          <include name="launch"/>
+          <include name="Coins_Student"/>
+        </methods>
+      </class> <!-- Test.Buy_Coins_Student_test -->
+      <class name="Test.Wishlist_test">
+        <methods>
+          <include name="launch"/>
+          <include name="course"/>
+        </methods>
+      </class> <!-- Test.Wishlist_test -->
+      <class name="Test.Coins_Student_testcase">
+        <methods>
+          <include name="Coins"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- Test.Coins_Student_testcase -->
+      <class name="Test.Coins_Instructor">
+        <methods>
+          <include name="launch"/>
+          <include name="Coins"/>
+        </methods>
+      </class> <!-- Test.Coins_Instructor -->
+    </classes>
+  </test> <!-- C:/Users/kikumara/IdeaProjects/Product_week(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
